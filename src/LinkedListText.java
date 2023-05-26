@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LinkedList
+public class LinkedListText
 {
     Node head;
     int count;
@@ -16,7 +16,7 @@ public class LinkedList
         }
     }
 
-    public static void insert_end(LinkedList list, int data)
+    public static void insert_end(LinkedListText list, int data)
     {
         Node temp=new Node(data);
         if(list.head==null)
@@ -37,7 +37,7 @@ public class LinkedList
     }
 
 
-    public static void insert_beg(LinkedList list, int data)
+    public static void insert_beg(LinkedListText list, int data)
     {
         Node temp=new Node(data);
         if(list.head==null)
@@ -53,7 +53,7 @@ public class LinkedList
         display(list);
     }
 
-    public static void insert_pos(LinkedList list, int data,int pos)
+    public static void insert_pos(LinkedListText list, int data, int pos)
     {
         if(pos < 1 || pos > list.count+1)
         {
@@ -85,7 +85,7 @@ public class LinkedList
     }
 
 
-    public static void display(LinkedList list)
+    public static void display(LinkedListText list)
     {
         Node temp;
         temp=list.head;
@@ -103,7 +103,7 @@ public class LinkedList
     }
 
 
-    public static void delete(LinkedList list, int data)
+    public static void delete(LinkedListText list, int data)
     {
         Node parent,last;
         if (list.head==null)
@@ -136,7 +136,7 @@ public class LinkedList
     }
 
 
-    public static void sort(LinkedList list)
+    public static void sort(LinkedListText list)
     {
         Node parent,last;
         int data;
@@ -159,7 +159,7 @@ public class LinkedList
     }
 
 
-    public static void search(LinkedList list,int data)
+    public static void search(LinkedListText list, int data)
     {
         Node last=list.head;
         if(last==null)
@@ -180,7 +180,7 @@ public class LinkedList
     }
 
 
-    public static void update(LinkedList list, int data, int pos)
+    public static void update(LinkedListText list, int data, int pos)
     {
         if(pos < 1 || pos > list.count)
         {
@@ -206,7 +206,7 @@ public class LinkedList
     }
 
 
-    public static void reverse(LinkedList list)
+    public static void reverse(LinkedListText list)
     {
         Node last=list.head,parent=null,temp;
         while (last!=null)
@@ -223,7 +223,7 @@ public class LinkedList
 
     public static void main(String[] args)
     {
-        LinkedList list=new LinkedList();
+        LinkedListText list=new LinkedListText();
         Scanner scan=new Scanner(System.in);
 
         int ch,data,pos;
