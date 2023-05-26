@@ -1,0 +1,22 @@
+146 - Sinnar phata,0,Nashik Road,5,Bytco,9,Datta Mandir,10,Nehru Nagar,12,Gandhi Nagar,14,Bodhale Nagar,15,Dwarka,17,Wadala Naka,18,Ganjmal,19,Shalimar,20,CBS,22,RK,25,PK,26,Nimani,27
+
+
+245 - Nashik Road,0,Bytco,4,Gymkhana Road,7,Jail Taki,11,Dasak,14,Nandur Naka,16,Nilgiri Bag,17,Kailash Nagar,19,Tapovan,21,Aurangabad Naka,22,Panchavati Depot Corner,24,Old Adgoan Naka,26,Nimani,28,PK,29,RK,30,Shalimar,32,CBS,34,New CBS,35
+
+
+152 - New CBS,0,CBS,1,RK,4,PK,5,Nimani,6,Old Adgoan Naka,8,Panchavati Depot Corner,10,Aurangabad Naka,12,K K Wagh,14,Amrut Dham,15,Bali Mandir,16,Jatra Hotel,17,Medical Fata,19,Adgaon,21,Ozar,36
+
+
+163 - New CBS,0,CBS,1,RK,4,PK,5,Nimani,6,Old Adgoan Naka,8,Trimurti Nagar,10,Hirawadi,11,Hirawadi Fata,12,Ayodha Nagar,13,Gandhi Nagar,14,Amrut Dham,15,Bali Mandir,16,Jatra Hotel,17,Medical Fata,19,met,22
+
+
+251 - Nashik Road,0,Bytco,4,Gymkhana Road,7,Jail Taki,11,Dasak,14,Nandur Naka,16,Nilgiri Bag,17,Kailash Nagar,19,Tapovan,21,Aurangabad Naka,22,Panchavati Depot Corner,24,Old Adgoan Naka,26,Nimani,28
+
+
+145 - Tapovan,0,Aurangabad Naka,1,Panchavati Depot Corner,3,Old Adgoan Naka,5,Nimani,7,PK,8,RK,9,Shalimar,11,CBS,13,New CBS,14
+
+
+208 - Nashik Road,0,Bytco,4,Datta Mandir,5,Nehru Nagar,7,Gandhi Nagar,9,Bodhale Nagar,10,Dwarka,12,Wadala Naka,13,Ganjmal,14,Shalimar,15,CBS,17,RK,20,PK,21,Nimani,22,Old Adgoan Naka,24,Panchavati Depot Corner,26,Aurangabad Naka,28,K K Wagh,30,Amrut Dham,31,Bali Mandir,32,Jatra Hotel,33,Medical Fata,35,Adgaon,37,Ozar,52
+
+
+209 - Nashik Road,0,Bytco,4,Datta Mandir,5,Nehru Nagar,7,Gandhi Nagar,9,Bodhale Nagar,10,Dwarka,12,Panchavati Depot Corner,15,Aurangabad Naka,17,K K Wagh,19,Amrut Dham,20,Bali Mandir,21,Jatra Hotel,22,Medical Fata,24,Adgaon,26,Ozar,41
