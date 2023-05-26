@@ -1,5 +1,39 @@
-Mahatma Nagar,Gangapur Road,2,
-Gangapur Road,Mahatma Nagar,4,Panchavati,6,CIDCO,9
-Panchavati,Gangapur Road,5,Mahatma Nagar,4,College Road,3
-College Road,Mahatma Nagar,8,Panchavati,3,CIDCO,9
-CIDCO,College Road,6,Panchavati,7,Gangapur Road,9
+Ozar,Adgaon,15,,,,
+Adgaon,Ozar,15,medical fata,2,,
+Medical Fata,MET,3,Jatra Hotel,2,Adgaon,2
+Jatra Hotel,Bali Mandir,1,medical fata,2,,
+Bali Mandir,Amrutdham,1,Jatra Hotel,1,,
+Amrutdham,K K Wagh,1,Ganesh Mandir,1,Bali Mandir,1
+MET,Medical fata,3,,,,
+K K Wagh,Amrutdham,1,Aurangabad Naka,2,,
+Aurangabad Naka,K K Wagh,2,Tapovan,1,Panchavati Depo Corner,2
+Ganesh Mandir,Ayodha Nagar,1,Amrutdham,1,,
+Ayodha Nagar,Hirawadi Fata,1,Ganesh Nagar,1,,
+Hirawadi Fata,Ayodha Nagar,1,Hirawadi,1,,
+Hirawadi  ,Hirawadi Fata,1,Trimurti Nagar,1,,
+Trimurti Nagar,Hirawadi  ,1,Old Adgaon Naka,2,,
+Old Adgoan Naka,Panchavati Depo Corner,2,Nimani,2,Trimurti Nagar,2
+Panchavati Depo Corner,Auranagabad Naka,2,Old Adgaon Naka,2,Dwarka,3
+Nimani,PK,1,Old Adgaon Naka,2,,
+PK,RK,1,Nimani,1,,
+RK,PK,1,CBS,3,Shalimar,2
+Shalimar,RK,2,CBS,2,Ganjmal,1
+CBS,New CBS,1,Shalimar,2,RK,3
+Ganjmal,Wadale Naka,1,Shalimar,1,,
+Wadal Naka,Dwarka,1,Ganjmal,1,,
+Dwarka,Panchavati Depo Corner,3,Wadale Naka,1,Bodhale Nagar,2
+Bodhnale Nagar,Dwarka,2,Gandhi Nagar,1,,
+Gandhi Nagar,Nehru Nagar,2,Bodhnale Nagar,1,,
+Nehru Nagar,Gandhi Nagar,2,Datta Mandir,2,,
+Datta Mandir,Nehru Nagar,2,Bytco,1,,
+Bytco,Datta Mandir,1,Gymkhana Road,3,Nashik Road,4
+Nashik Road,Bytco,4,Sinnar Phata,5,,
+Gymkhana Road,Bytco,3,Jail Taki,4,,
+Jail Taki,Dasak,3,Gymkhana Road,4,,
+Dasak,Jail Taki,3,Nandur Naka,2,,
+Nandur Naka,Dasak,2,Nilgiri Bag,1,,
+Nilgiri Bag,Nandur Naka,1,Kailash Nagar,2,,
+Kailash Nagar,Nilgiri Bag,2,Tapovan,2,,
+Tapovan,Kailash Nagar,2,Aurangabad Naka,1,,
+New CBS,CBS,1,,,,
+Sinnar phata,Nashik Road,5,,,,
