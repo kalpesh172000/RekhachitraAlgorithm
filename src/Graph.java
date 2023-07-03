@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class Graph {
-    private static final String CSV_FILE_PATH = "graphdata\edge.csv";
+    private static final String CSV_FILE_PATH = "graphdata\\edge.csv";
 
     private static Map<String, Map<String, Integer>> createGraphFromCSV() {
         Map<String, Map<String, Integer>> graph = new HashMap<>();
