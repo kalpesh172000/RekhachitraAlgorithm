@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class Graph {
-    private static final String CSV_FILE_PATH = "edgess.csv";
+    private static final String CSV_FILE_PATH = "graph.csv";
 
     private static Map<String, Map<String, Integer>> createGraphFromCSV() {
         Map<String, Map<String, Integer>> graph = new HashMap<>();
@@ -36,8 +36,8 @@ public class Graph {
 
     private static List<String> findShortestPathWithBranchNodes(Map<String, Map<String, Integer>> graph, String source, String destination) {
         // Check if the source or destination is a branch node
-        boolean sourceIsBranchNode = graph.get(source).size() > 2;
-        boolean destinationIsBranchNode = graph.get(destination).size() > 2;
+        boolean sourceIsBranchNode = graph.containsKey(source) && graph.get(source) != null && graph.get(source).size() > 2;
+        boolean destinationIsBranchNode = graph.containsKey(destination) && graph.get(destination) != null && graph.get(destination).size() > 2;
 
         if (!sourceIsBranchNode && !destinationIsBranchNode) {
             // If both source and destination are not branch nodes, find the shortest path using Dijkstra's algorithm
@@ -50,7 +50,7 @@ public class Graph {
             String node = entry.getKey();
             Map<String, Integer> neighbors = entry.getValue();
 
-            if (neighbors.size() > 2 || node.equals(source) || node.equals(destination)) {
+            if (neighbors != null && (neighbors.size() > 2 || node.equals(source) || node.equals(destination))) {
                 modifiedGraph.put(node, neighbors);
             }
         }
