@@ -1,19 +1,19 @@
 Ozar,Adgaon,15,,,,
-Adgaon,Ozar,15,Medical fata,2,,
+Adgaon,Ozar,15,Medical Fata,2,,
 Medical Fata,MET,3,Jatra Hotel,2,Adgaon,2
-Jatra Hotel,Bali Mandir,1,Medical fata,2,,
+Jatra Hotel,Bali Mandir,1,Medical Fata,2,,
 Bali Mandir,Amrut Dham,1,Jatra Hotel,1,,
 Amrut Dham,K K Wagh,1,Ganesh Mandir,1,Bali Mandir,1
-MET,Medical fata,3,,,,
+MET,Medical Fata,3,,,,
 K K Wagh,Amrut Dham,1,Aurangabad Naka,2,,
-Aurangabad Naka,K K Wagh,2,Tapovan,1,Panchavati Depo Corner,2
+Aurangabad Naka,K K Wagh,2,Tapovan,1,Panchavati Depot Corner,2
 Ganesh Mandir,Ayodhya Nagar,1,Amrut Dham,1,,
-Ayodhya Nagar,Hirawadi Fata,1,Ganesh Nagar,1,,
+Ayodhya Nagar,Hirawadi Fata,1,Ganesh Mandir,1,,
 Hirawadi Fata,Ayodhya Nagar,1,Hirawadi,1,,
 Hirawadi,Hirawadi Fata,1,Trimurti Nagar,1,,
-Trimurti Nagar,Hirawadi  ,1,Old Adgaon Naka,2,,
-Old Adgaon Naka,Panchavati Depo Corner,2,Nimani,2,Trimurti Nagar,2
-Panchavati Depot Corner,Auranagabad Naka,2,Old Adgaon Naka,2,Dwarka,3
+Trimurti Nagar,Hirawadi,1,Old Adgaon Naka,2,,
+Old Adgaon Naka,Panchavati Depot Corner,2,Nimani,2,Trimurti Nagar,2
+Panchavati Depot Corner,Aurangabad Naka,2,Old Adgaon Naka,2,Dwarka,3
 Nimani,PK,1,Old Adgaon Naka,2,,
 PK,RK,1,Nimani,1,,
 RK,PK,1,CBS,3,Shalimar,2
