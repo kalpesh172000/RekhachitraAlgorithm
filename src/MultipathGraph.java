@@ -73,7 +73,7 @@ public class MultipathGraph
             if(!isVisited[busStop.indexOf(loc.getKey())])
             {
                 boolean isBranch = graph.get(loc.getKey()).size()>2;
-                if(isBranch)
+                if(isBranch || Objects.equals(loc.getKey(), destination))
                 {
                     localpathList.add(loc.getKey());
                     distance=distance+loc.getValue();
