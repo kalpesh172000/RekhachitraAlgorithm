@@ -3,15 +3,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-public class Graph {
-    private static final String CSV_FILE_PATH = "graph.csv";
+public class Graph
+{
+    private static final String CSV_FILE_PATH = "graphdata\\edgess.csv";
 
     private static Map<String, Map<String, Integer>> createGraphFromCSV() {
         Map<String, Map<String, Integer>> graph = new HashMap<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(CSV_FILE_PATH))) {
             String line;
-            reader.readLine(); // Skip the header line
+            //reader.readLine(); // Skip the header line // we don't need to skip header line
 
             while ((line = reader.readLine()) != null) {
                 String[] data = line.split(",");
@@ -71,14 +72,27 @@ public class Graph {
 
         return path;
     }
+    private static void displayGraph(Map<String, Map<String, Integer>> graph)
+    {
+        for (Map.Entry<String, Map<String, Integer>> entry : graph.entrySet()) {
+            String node = entry.getKey();
+            Map<String, Integer> neighbors = entry.getValue();
+            System.out.print("\n"+node);
+            for(Map.Entry<String, Integer> adjacent: neighbors.entrySet())
+            {
+                System.out.print("->"+adjacent.getKey()+ ":"+adjacent.getValue());
+            }
+        }
+    }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // Create the graph from CSV
         Map<String, Map<String, Integer>> graph = createGraphFromCSV();
-
+        displayGraph(graph);
         // Find the shortest path between two nodes, considering branch nodes
-        String source = "Mahatma Nagar";
-        String destination = "CIDCO";
+        String source = "Sinnar Phata";
+        String destination = "K K Wagh";
         List<String> shortestPath = findShortestPathWithBranchNodes(graph, source, destination);
 
         // Print the shortest path

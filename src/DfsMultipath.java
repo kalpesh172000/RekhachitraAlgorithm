@@ -1,8 +1,10 @@
 // JAVA program to print all
 // paths from a source to
 // destination.
+import java.io.*;
 import java.util.ArrayList;
-        import java.util.List;
+import java.util.Iterator;
+import java.util.List;
 
 // A directed graph using
 // adjacency list representation
@@ -13,6 +15,7 @@ public class DfsMultipath {
 
     // adjacency list
     private ArrayList<Integer>[] adjList;
+    private ArrayList<List<Integer>> result= new ArrayList<>();
 
     // Constructor
     public DfsMultipath(int vertices)
@@ -51,6 +54,7 @@ public class DfsMultipath {
         boolean[] isVisited = new boolean[v];
         ArrayList<Integer> pathList = new ArrayList<>();
 
+
         // add source to path[]
         pathList.add(s);
 
@@ -66,11 +70,13 @@ public class DfsMultipath {
     // vertices in the current path
     private void printAllPathsUtil(Integer u, Integer d,
                                    boolean[] isVisited,
-                                   List<Integer> localPathList)
-    {
+                                   List<Integer> localPathList) {
+        //FileOutputStream resultFile=new FileOutputStream(result);
 
         if (u.equals(d)) {
-            System.out.println(localPathList);
+
+            System.out.println(localPathList + " " + localPathList.size());
+            result.add(new ArrayList<>(localPathList));
             // if match found then no need to traverse more till depth
             return;
         }
@@ -96,6 +102,13 @@ public class DfsMultipath {
         // Mark the current node
         isVisited[u] = false;
     }
+    private void displayResult()
+    {
+        for(List<Integer> list : result)
+        {
+            System.out.println(list);
+        }
+    }
 
     // Driver program
     public static void main(String[] args)
@@ -119,5 +132,7 @@ public class DfsMultipath {
                 "Following are all different paths from "
                         + s + " to " + d);
         g.printAllPaths(s, d);
+        System.out.print("\nthis is result\n");
+        g.displayResult();
     }
 }
